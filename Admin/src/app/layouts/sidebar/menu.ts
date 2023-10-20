@@ -2,6 +2,17 @@ import { MenuItem } from './menu.model';
 
 export const MENU: MenuItem[] = [
     {
+        id: -1,
+        label: 'My Zone',
+        isTitle: true
+    },
+    {
+        id: 0,
+        label: 'My Device',
+        icon: 'bx-mobile',
+        link: '/my-zone',
+    },
+    {
         id: 1,
         label: 'MENUITEMS.MENU.TEXT',
         isTitle: true

@@ -9,6 +9,7 @@ import { User } from '../models/auth.models';
 export class AuthenticationService {
 
     user: User;
+    delayTimer: 0;
 
     constructor() {
     }
